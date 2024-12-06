@@ -23,10 +23,10 @@ void setup()
     delay(10);
 
     // Server initialization
-    // Srvr__setup();
+    Srvr__setup();
 
     // SPI initialization
-    // EPD_initSPI();
+    EPD_initSPI();
 
     // Initialization is complete
     Serial.print("\r\nOk!\r\n");
@@ -36,11 +36,11 @@ void setup()
 void loop()
 {
     // The server state observation
-    // Srvr__loop();
+    Srvr__loop();
 
-    while (true)
-    {
-        Serial.println("gogogo");
-        delay(500);
-    }
+    // while (true)
+    // {
+    //     Serial.println("gogogo");
+    //     delay(500);
+    // }
 }
